@@ -37,8 +37,9 @@ This projects involves topics like:
 
 ## Important Tools:
 
-* Datasets as csv files - link
-* Mysql WorkBench
+* Datasets as csv files
+* Postgres
+* DBeaver
 * Git Repositiory
 * Draw.IO for preparing arctitectures, models and flows
 * Notion to plan and track the whole project
@@ -46,6 +47,13 @@ This projects involves topics like:
 ---
 
 ## Project Requirements
+
+* Intermediate level understanding of SQL
+* Basics Understanding of Data Model
+* Database hosting and login via client
+* Understanding of data flow architecture
+* Familiar with Installation and trouble shooting
+* Etc
 
 ### Building the Data Warehouse
 
@@ -59,7 +67,33 @@ This projects involves topics like:
 
 ## Repository Structure
 ```
+Data-Warehouse-Project-SQL
 
+├───Datasets
+│   ├───source_crm
+│   │       cust_info.csv
+│   │       prd_info.csv
+│   │       sales_details.csv
+│   │
+│   └───source_erp
+│           CUST_AZ12.csv
+│           LOC_A101.csv
+│           PX_CAT_G1V2.csv
+│
+├───Docs
+│       Architecture.pdf
+│
+└───Scripts
+    │   init_schemas.sql
+    │
+    ├───bronze
+    │       bronze_ddl.sql
+    │       bronze_load.sql
+    │       bronze_load_check.sql
+    │       bronze_main.sql
+    │
+    ├───gold
+    └───silver
 ```
 
 ---
