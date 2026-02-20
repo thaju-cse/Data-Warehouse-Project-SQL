@@ -9,7 +9,7 @@ Script Purpose:
     within the database schema: 'bronze'.
 	
 WARNING:
-    Running this script will truncatE all the tables available in the bronze schema. 
+    Running this script will truncate all the tables available in the bronze schema. 
     All data in the bronze schema will be permanently deleted. Proceed with caution 
     and ensure you have proper backups before running this script.
 */
