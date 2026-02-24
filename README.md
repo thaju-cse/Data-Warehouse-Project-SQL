@@ -56,6 +56,7 @@ This projects involves topics like:
 * Etc
 
 ### Building the Data Warehouse
+![Integration_Diagram](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Integration_Diagram.png).
 
 #### Objective
 
@@ -68,21 +69,21 @@ This projects involves topics like:
 ## Repository Structure
 ```
 Data-Warehouse-Project-SQL
-
 ├───Datasets
 │   ├───source_crm
 │   │       cust_info.csv
 │   │       prd_info.csv
 │   │       sales_details.csv
-│   │
 │   └───source_erp
 │           CUST_AZ12.csv
 │           LOC_A101.csv
 │           PX_CAT_G1V2.csv
-│
 ├───Docs
-│       Architecture.pdf
-│
+│       Architecture.png
+│       Data_Flow_Diagram.png
+│       Data_Model.png
+│       Integration_Diagram.png
+│       Layers.png
 └───Scripts
     │   init_schemas.sql
     │
@@ -91,9 +92,14 @@ Data-Warehouse-Project-SQL
     │       bronze_load.sql
     │       bronze_load_check.sql
     │       bronze_main.sql
-    │
+    │       temp.sql
     ├───gold
+    │       gold_integration.sql
     └───silver
+            silver_analyze.sql
+            silver_cleanse.sql
+            silver_ddl.sql
+            silver_main.sql
 ```
 
 ---
