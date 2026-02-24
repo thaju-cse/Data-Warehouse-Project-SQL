@@ -8,7 +8,7 @@ From Extracting the data to generating actionable insights.
 ## Data Architecture
 
 This project follows Medallion Architecture **Bronze**, **Silver** and **Gold** layers:
-!Image
+![Architecture](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Architecture.png).
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems.
 2. **Silver Layer**: This layer includes data cleansing, standardization and normalization processes to prepare data for analysis.
