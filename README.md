@@ -23,7 +23,7 @@ This project involves:
 1. **Data Architecture**: Designing a Modern Data Warehouse Medallion Architecture **Bronze**, **Silver** and **Gold** layers.
 2. **ETL Pipelines**: Extracting, Transforming and loading data from source systems into the warehouse.
 3. **Data Modelling**: Developing fact and dimension tables optimized for actionable insights.
-4. **Analytics and Reporting**:
+4. **Analytics and Reporting**: Used by Data Analysts.
 
 This projects involves topics like:
 * Data Architecting
@@ -56,11 +56,10 @@ This projects involves topics like:
 * Etc
 
 ### Building the Data Warehouse
-
-![Integration_Diagram](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Integration_Diagram.png).
-
+![Plan_to_develop](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Layers.png).
 #### Objective
 Develop a modern data warehouse using Postgres Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+![Integration_Diagram](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Integration_Diagram.png).
 
 #### Specifications
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
@@ -68,6 +67,8 @@ Develop a modern data warehouse using Postgres Server to consolidate sales data,
 - **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
 
 ## Repository Structure
 ```
