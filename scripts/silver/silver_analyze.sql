@@ -1,3 +1,7 @@
+/*
+This is a sample script how can we analyze the given data.
+*/
+
 -- ===================Table bronze.crm_cust_info=========================
 select * from silver.crm_cust_info;
 
