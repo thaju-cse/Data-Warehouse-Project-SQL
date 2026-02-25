@@ -8,7 +8,7 @@ From Extracting the data to generating actionable insights.
 ## Data Architecture
 
 This project follows Medallion Architecture **Bronze**, **Silver** and **Gold** layers:
-![Architecture](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Architecture.pdf).
+![Architecture](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Architecture.png).
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems.
 2. **Silver Layer**: This layer includes data cleansing, standardization and normalization processes to prepare data for analysis.
@@ -56,11 +56,11 @@ This projects involves topics like:
 * Etc
 
 ### Building the Data Warehouse
-![Plan_to_develop](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Layers.pdf).
+![Plan_to_develop](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Layers.png).
 #### Objective
 Develop a modern data warehouse using Postgres Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-![Integration_Diagram](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Integration_Diagram.pdf).
+![Integration_Diagram](https://github.com/thaju-cse/Data-Warehouse-Project-SQL/blob/main/docs/Integration_Diagram.png).
 
 #### Specifications
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
