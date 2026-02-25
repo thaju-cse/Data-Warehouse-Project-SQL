@@ -14,7 +14,7 @@ Parameters:
       This stored procedure does not accept any parameters or return any values.
 
 Usage Example:
-    EXEC Silver.load_silver;
+    call silver.load_silver();
 ===============================================================================
 */
 create or replace procedure silver.load_silver() 
