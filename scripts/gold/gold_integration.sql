@@ -1,3 +1,17 @@
+/*
+===============================================================================
+Views: Create views using silver layer
+===============================================================================
+Script Purpose:
+    This script creates fact and dimension views for Business Intelligence or Data Analytics.
+	Actions Performed:
+        - Create or replace the existing view with Business rules included.
+        - Creates views in Gold Layer.		
+Parameters:
+    This script creates views which is not stored in physically.
+This script will work only with postgres databases only.
+===============================================================================
+*/
 -- drop view if exists gold.dim_customers;
 create or replace view gold.dim_customers as
     select 
