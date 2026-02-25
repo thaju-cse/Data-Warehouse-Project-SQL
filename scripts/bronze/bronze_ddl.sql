@@ -1,6 +1,7 @@
 /*
 =============================================================
 Create Tables: Using pdadmin4 (postgresql)
+Editor: Using DBeaver connected to Postgres
 =============================================================
 Script Purpose:
     This script creates a new tables in bronze schema after droping existing tables. 
